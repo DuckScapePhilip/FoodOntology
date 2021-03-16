@@ -58,10 +58,10 @@ EPCIS also supports using a Non-GS1 GTIN that does not require a GS1 Company Pre
 It is composed of the following parts:
 
 - URN Prefix
-    - *The URN Prefix is always urn:gdst*
+    - *The URN Prefix is always **urn:gdst***
 - Domain
 - Data Type
-    - *For GTINS, the Data Type is always product:class*
+    - *For GTINS, the Data Type is always **product:class***
 - Company Prefix
     - *Company Prefix must only be alpha-numeric characters or dashes (-)*
 - Serial Number
