@@ -26,7 +26,7 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        deploy_key: SHA256:1zKlr4v+vytuQzc3QTd1BNihvOq8rRK8QhMIGjp8KnQ
         publish_dir: ./public
         cname: docs.foodontology.com
       env:
