@@ -31,8 +31,8 @@ An example GTIN-14 using our example GS1 Company Prefix from above is `008600030
 - Check Sum - `8`
 
 ## Aditional Help Links
-- [Calculating the Check Sum](https://www.gs1.org/services/check-digit-calculator)
-- [Additional GTIN Help Documentation](https://www.gs1.help/gtin-overview/)
+- [Calculating the Check Sum](https://www.gs1.org/services/check-digit-calculator){:target="_blank"}
+- [Additional GTIN Help Documentation](https://www.gs1.help/gtin-overview/){:target="_blank"}
 
 # EPCIS GS1 GTIN
 
