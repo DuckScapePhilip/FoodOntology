@@ -56,17 +56,17 @@ They are put together in the following order:
 EPCIS also supports using a Non-GS1 GTIN that does not require a GS1 Company Prefix. We support the GDST version of these GTINs.
 
 It is composed of the following parts:
-- URN Prefix - `urn:gdst:`
+- URN Prefix
     - *The URN Prefix is always `urn:gdst`*
 - Domain
-- Data Type - `product:class`
+- Data Type
     - *For GTINS, the Data Type is always `product:class`*
 - Company Prefix
     - *Company Prefix must only be alpha-numeric characters or dashes (`-`)*
 - Serial Number
-    - *Serial Number must only be alpha-numeric characters or dashes(`-`)*
+    - *Serial Number must only be alpha-numeric characters or dashes (`-`)*
 
-| These identifier are generally a little bit more complicated to produce but can be useful for actors further upstream in the supply chain who may not have a GS1 Company Prefix. We support all companies getting a GS1 Company Prefix, but that may not always be possible.
+These identifier are generally a little bit more complicated to produce but can be useful for actors further upstream in the supply chain who may not have a GS1 Company Prefix. We support all companies getting a GS1 Company Prefix, but that may not always be possible.
 
 The *Domain* part of the GTIN is used to indicate the system that generated the GTIN. I.E. it might be a tracaebility solution provider who generates a number of GTINs for several different companies. For our example here we are going to use the domain `foodontology.com` since we own that domain name. In your case, it is recommended to use a domain that you own.
 
