@@ -3,7 +3,7 @@ const themeOptions = require("./src/theme-options")
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
-    title: 'GDST Docs'
+    title: 'Food Ontology Docs'
   },
   plugins: [
     `gatsby-plugin-dark-mode`,
@@ -30,7 +30,7 @@ module.exports = {
         ...themeOptions,
         
         root: __dirname,
-        githubRepo: "ift-gftc/doc.gdst",
+        githubRepo: "duckscapephilip/foodontology",
         sidebarCategories: {
           null: ["index", "intro/executive-summary", "intro/feedback", "intro/how-to-use-docs"],
           "Pretext": [
