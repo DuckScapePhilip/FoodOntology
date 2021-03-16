@@ -15,20 +15,20 @@ const footerNavConfig = {
 };
 
 module.exports = {
-  siteName: "GFTC Documentations",
-  subtitle: "Traceability Dialogue",
+  siteName: "Food Ontology",
+  subtitle: "Documentation",
   description: "A guide to GFTC's recommended standards and APIs",
-  menuTitle: 'IFT ECOSYSTEM',
+  menuTitle: 'FOOD ONTOLOGY ECOSYSTEM',
   segmentApiKey: 'wgrIo8Bul0Ujl8USETG3DB6hONdy4kTg',
   algoliaApiKey: '0215604f45f349255c6d5dda932005b6',
   algoliaIndexName: 'traceability-dialogue_developer',
-  baseUrl: 'https://developer.traceability-dialogue.org/',
+  baseUrl: 'https://docs.foodontology.com/',
   contentDir: '/source/',
   twitterHandle: 'IFT',
   spectrumHandle: 'ift',
   spectrumPath: '/doc-gdst',
   youtubeUrl: 'https://www.youtube.com/user/IFTlive',
-  logoLink: 'https://www.traceability-dialogue.org/',
+  logoLink: 'https://www.foodontology.com/',
   defaultVersion: 'default',
   navConfig,
   footerNavConfig
