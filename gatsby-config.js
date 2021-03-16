@@ -29,7 +29,7 @@ module.exports = {
       options: {
         ...themeOptions,
         
-        root: __dirname,
+        root: "docs",
         githubRepo: "duckscapephilip/foodontology",
         sidebarCategories: {
           null: ["index", "intro/executive-summary", "intro/feedback", "intro/how-to-use-docs"],
