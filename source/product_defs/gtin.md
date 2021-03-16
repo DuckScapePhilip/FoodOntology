@@ -56,6 +56,7 @@ They are put together in the following order:
 EPCIS also supports using a Non-GS1 GTIN that does not require a GS1 Company Prefix. We support the GDST version of these GTINs.
 
 It is composed of the following parts:
+
 - URN Prefix
     - *The URN Prefix is always `urn:gdst`*
 - Domain
