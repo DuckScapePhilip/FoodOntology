@@ -10,7 +10,7 @@ A GTIN is used for uniquely identifying a product definition and is critical in 
 - EPCIS GS1 GTIN
 - EPCIS GDST / Private GTIN
 
-## GTIN-14
+# GTIN-14
 
 A GTIN-14 is composed of 4 different parts. Those are:
 
@@ -30,11 +30,11 @@ An example GTIN-14 using our example GS1 Company Prefix from above is `008600030
 - Serial Number - `0`
 - Check Sum - `8`
 
-### Aditional Help Links
+## Aditional Help Links
 - [Calculating the Check Sum](https://www.gs1.org/services/check-digit-calculator)
 - [Additional GTIN Help Documentation](https://www.gs1.help/gtin-overview/)
 
-## EPCIS GS1 GTIN
+# EPCIS GS1 GTIN
 
 EPCIS uses a URN format for GTINs. An exampe of a GS1 GTIN in the EPCIS format looks like:
 
@@ -49,6 +49,6 @@ It is composed of the following parts:
 
 They are put together in the following order:
 
-`URN Prefix` : `Company Prefix` . `Indicator Digit``Serial Number`
+`URN Prefix` : `Company Prefix` . `Indicator Digit` `Serial Number`
 
-## EPCIS GDST / Private GTIN
+# EPCIS GDST / Private GTIN
