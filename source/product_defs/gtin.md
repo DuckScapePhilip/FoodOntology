@@ -58,14 +58,14 @@ EPCIS also supports using a Non-GS1 GTIN that does not require a GS1 Company Pre
 It is composed of the following parts:
 
 - URN Prefix
-    - *The URN Prefix is always `urn:gdst`*
+    - *The URN Prefix is always urn:gdst*
 - Domain
 - Data Type
-    - *For GTINS, the Data Type is always `product:class`*
+    - *For GTINS, the Data Type is always product:class*
 - Company Prefix
-    - *Company Prefix must only be alpha-numeric characters or dashes (`-`)*
+    - *Company Prefix must only be alpha-numeric characters or dashes (-)*
 - Serial Number
-    - *Serial Number must only be alpha-numeric characters or dashes (`-`)*
+    - *Serial Number must only be alpha-numeric characters or dashes (-)*
 
 These identifier are generally a little bit more complicated to produce but can be useful for actors further upstream in the supply chain who may not have a GS1 Company Prefix. We support all companies getting a GS1 Company Prefix, but that may not always be possible.
 
